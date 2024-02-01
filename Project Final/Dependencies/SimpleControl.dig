@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes>
+    <entry>
+      <string>Width</string>
+      <int>5</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>isProgramMemory</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>14</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>0,19,23,431,40d,b,210,2411,202,610,41,449,118b,108e,800,800</data>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>14</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,4,1,1,1,1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>RegDst</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Branch</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>MemR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Mem2Reg</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>ALUOp</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>MemW</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>ALUSrc</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>RWrite</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Op</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Jump</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Offset</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>enable</string>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>loadlow</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="120"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="660" y="240"/>
+      <p2 x="680" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="320"/>
+      <p2 x="680" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="320"/>
+      <p2 x="640" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="160"/>
+      <p2 x="680" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="180"/>
+      <p2 x="680" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="260"/>
+      <p2 x="680" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="340"/>
+      <p2 x="540" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="200"/>
+      <p2 x="680" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="280"/>
+      <p2 x="680" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="120"/>
+      <p2 x="680" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="220"/>
+      <p2 x="680" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="300"/>
+      <p2 x="680" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="300"/>
+      <p2 x="540" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="140"/>
+      <p2 x="680" y="140"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

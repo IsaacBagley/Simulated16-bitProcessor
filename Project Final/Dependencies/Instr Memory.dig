@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>LAYOUT</shapeType>
+    </entry>
+    <entry>
+      <string>Height</string>
+      <int>6</int>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>6</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="520" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>52,4b,54,8a,d6,45,d6,80,14,10,c7,5,c6,40,56,c1,93,3c,63,2,90,82
+,90,c1,e0,14,93,1,0,0,12,8,14,10,52,50,d4,4c</data>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Instr</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Addr</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="260"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="500" y="260"/>
+      <p2 x="540" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="280"/>
+      <p2 x="640" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="300"/>
+      <p2 x="540" y="300"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

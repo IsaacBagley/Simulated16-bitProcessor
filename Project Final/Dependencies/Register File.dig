@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>LAYOUT</shapeType>
+    </entry>
+    <entry>
+      <string>Height</string>
+      <int>6</int>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>8</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Rdata1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Rreg1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Rdata2</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Rreg2</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Wdata</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>C</string>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Rwrite</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RegisterFile</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>3</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Wen</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="240"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="640" y="240"/>
+      <p2 x="660" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="240"/>
+      <p2 x="560" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="320"/>
+      <p2 x="560" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="320"/>
+      <p2 x="500" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="260"/>
+      <p2 x="560" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="280"/>
+      <p2 x="560" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="220"/>
+      <p2 x="660" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="220"/>
+      <p2 x="560" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="300"/>
+      <p2 x="560" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="380"/>
+      <p2 x="540" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="300"/>
+      <p2 x="500" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="320"/>
+      <p2 x="540" y="380"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
